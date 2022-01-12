@@ -22,4 +22,4 @@ https://jundongl.github.io/scikit-feature/datasets.html
 2. For each folder, run the script "FC_test_stream.py" file to reproduce the results in the paper;
 3. The chunk size is named as "Batchsize" variable and it can be changed in line 28 ;
 4. Dataset name can be changed in line 27; 
-5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/ranking-test/" and run the "result.py" file;
+5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/Ranking_test/" and run the "result.py" file;
