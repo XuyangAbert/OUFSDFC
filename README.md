@@ -1,13 +1,17 @@
 # Streaming feature selection framework using dyanmic density-based feature stream clustering (SFS-DFC)
 
 # Description:
-In this project, thirteen benchmark datasets from ASU Feature Selection Repository [1] are used:
+In this project, thirteen benchmark datasets are used:
 
 Medical datasets: ALLAML, Lung, Arcene and Lymphoma.
 
 Image datasets: Orlraws10P, Pixraws10P, WarpPIE10P, and COIL20.
 
 Biological datasets: Colon, SMK, GLIMO, GLI-85, and Carcinom.
+
+All these thirteen datasets can be found from the ASU feature selection repository using following link:
+
+https://jundongl.github.io/scikit-feature/datasets.html
 
 # Instructions for Running the code:
 
