@@ -19,7 +19,7 @@ https://jundongl.github.io/scikit-feature/datasets.html
 
    numpy, scikit-learn, Orange3 (Python 3), and pandas.
 
-2. For each folder, run the script "FC_test_stream.py" file to reproduce the results in the paper;
+2. For the proposed SFS-DFC method, go to the directory "Experiments/Codes/XXX/" to find the correspdong folder for each dataset and run the script "FC_test_stream.py" file to reproduce the results in the paper;
 3. The chunk size is named as "Batchsize" variable and it can be changed in line 28 ;
 4. Dataset name can be changed in line 27; 
 5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/Ranking_test/" and run the "result.py" file;
