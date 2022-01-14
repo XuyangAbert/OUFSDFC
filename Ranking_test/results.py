@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan  6 10:17:02 2022
-
-@author: Xuyang
-"""
 from scipy.stats import friedmanchisquare
 import pandas as pd
 import numpy as np
@@ -123,4 +117,4 @@ FriedTest(measure4, 'F1-macro')
 print("Mean ranks of F1-macro on KNN classifier:", avranks4)
 cd4 = Orange.evaluation.compute_CD(avranks4, len(datasets), test='nemenyi', alpha='0.05')
 Orange.evaluation.graph_ranks(avranks2, methods, cd=cd2, width=6, textspace=1.5)
-plt.savefig('CD-F1-KNN.png')
+plt.savefig('CD-F1-DT.png')
