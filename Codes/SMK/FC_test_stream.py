@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  7 22:11:01 2019
-
-@author: xyan
-"""
-
 import numpy as np
 import math
 import pandas as pd
@@ -247,7 +240,7 @@ def Pseduo_Merge(DisC, PeakIndices, PseDuoF, C_Indices, DC_Mean, DC_Std, data, f
                     # neighboring pseduo feature clusters
                     BP=Boundary_Points(DisC, F_Indices,data, PeakIndices[i], PeakIndices[MinIndice])
                     BPF=fitness[BP]
-                    if BPF < 0.95*min(CurrentFit,NeighborFit): # 0.95
+                    if BPF < 0.85*min(CurrentFit,NeighborFit): # 0.95
                         M = 0 # Change the Merge flag
                     else:
                         M = 1
@@ -348,7 +341,7 @@ def hist_merge(DisC, fitness, currentFcluster, currentFfitness, C_Indices, histF
                 else:
                     BP = temp_clusteridx[sort_idx[1]]
         BPF = fitness[BP]
-        if BPF < 0.95 * min(currentf, neighborhistf):
+        if BPF < 0.85 * min(currentf, neighborhistf):
             M = False
         else:
             M = True
