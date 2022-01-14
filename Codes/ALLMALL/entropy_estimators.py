@@ -1,5 +1,3 @@
-# Written by Greg Ver Steeg (http://www.isi.edu/~gregv/npeet.html)
-
 import scipy.spatial as ss
 from scipy.special import digamma
 from math import log
