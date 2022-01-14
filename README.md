@@ -13,7 +13,7 @@ All these thirteen datasets can be found from the ASU feature selection reposito
 
 https://jundongl.github.io/scikit-feature/datasets.html
 
-# Instructions for Running the code:
+# Instructions for Running the code for SFS-DC framework:
 
 1. Install the following python packages first:
 
