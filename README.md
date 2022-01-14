@@ -1,6 +1,8 @@
 # Streaming feature selection framework using dyanmic density-based feature stream clustering (SFS-DFC)
 
 # Description:
+The "Supplemental-Results.pdf" file shows the number of selected features for all seven compared SFS methods and the proposed SFS-DFC method. Some discussions are provided as well.
+
 In this project, thirteen benchmark datasets are used:
 
 Medical datasets: ALLAML, Lung, Arcene and Lymphoma.
