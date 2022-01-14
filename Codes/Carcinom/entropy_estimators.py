@@ -1,5 +1,3 @@
-
-
 import scipy.spatial as ss
 from scipy.special import digamma
 from math import log
