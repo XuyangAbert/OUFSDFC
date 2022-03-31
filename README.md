@@ -1,4 +1,4 @@
-# Streaming feature selection framework using dyanmic density-based feature stream clustering (SFS-DFC)
+# Streaming feature selection framework using dyanmic density-based feature stream clustering (OUFSDFC)
 
 # Description:
 The "Supplemental-Results.pdf" file shows the number of selected features for all seven compared SFS methods and the proposed SFS-DFC method. Some discussions are provided as well.
@@ -15,7 +15,7 @@ All these thirteen datasets can be found from the ASU feature selection reposito
 
 https://jundongl.github.io/scikit-feature/datasets.html
 
-# Instructions for Running the code for SFS-DC framework:
+# Instructions for Running the code for OUFSDFC framework:
 
 1. Install the following python packages first:
 
