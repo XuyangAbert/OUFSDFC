@@ -25,3 +25,6 @@ https://jundongl.github.io/scikit-feature/datasets.html
 3. The chunk size is named as "Batchsize" variable and it can be changed in line 21 or 22;
 4. Dataset name can be changed in line 20; 
 5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/Ranking_test/" and run the "result.py" file;
+
+
+This work is currently under review of IEEE Transactions on Artificial Intelligence.
