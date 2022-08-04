@@ -26,5 +26,8 @@ https://jundongl.github.io/scikit-feature/datasets.html
 4. Dataset name can be changed in line 20; 
 5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/Ranking_test/" and run the "result.py" file;
 
+# Note:
+This work has been accepted for publication in IEEE Transactions on Artificial Intelligence and please cite the following articles for any use.
 
-This work is currently under review of IEEE Transactions on Artificial Intelligence.
+1. Xuyang Yan, Abdollah Homaifar, Mrinmoy Sarkar, Benjamin Lartley, and Kishor Datta Gupta. "An Online Unsupervised Streaming Features
+Selection Through Dynamic Feature Clustering" IEEE Transactions on Artificial Intelligence. (Accepted)
