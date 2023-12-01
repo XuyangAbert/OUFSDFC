@@ -1,6 +1,7 @@
-# Streaming feature selection framework using dyanmic density-based feature stream clustering (OUFSDFC)
+# Getting Start
+Streaming feature selection framework using dyanmic density-based feature stream clustering (OUFSDFC)
 
-# Description:
+### Description:
 The "Supplemental-Results.pdf" file shows the number of selected features for all seven compared SFS methods and the proposed SFS-DFC method. Some discussions are provided as well.
 
 In this project, thirteen benchmark datasets are used:
@@ -15,19 +16,24 @@ All these thirteen datasets can be found from the ASU feature selection reposito
 
 https://jundongl.github.io/scikit-feature/datasets.html
 
-# Instructions for Running the code for OUFSDFC framework:
+## Example Usage
 
-1. Install the following python packages first:
-
-   numpy, scikit-learn, Orange3 (Python 3), and pandas.
-
-2. For the proposed OUFSDFC method, go to the directory "/Codes/DatsetNames/" to find the correspdong folder for each dataset and run the script "FC_test_stream.py" file to reproduce the results in the paper;
+1. For the proposed OUFSDFC method, go to the directory "/Codes/DatsetNames/" to find the correspdong folder for each dataset and run the script "FC_test_stream.py" file to reproduce the results in the paper;
 3. The chunk size is named as "Batchsize" variable and it can be changed in line 21 or 22;
 4. Dataset name can be changed in line 20; 
 5. For the statistical comparison using Friedman rank test and Nemenyi post-hoc test, go to folder "/Ranking_test/" and run the "result.py" file;
 
-# Note:
-This work has been accepted for publication in IEEE Transactions on Artificial Intelligence and please cite the following articles for any use.
+An example jupternotebook file ("example_oufsdfc.ipynb") is provided for users to directly run the code on Google Colab.
 
-1. Xuyang Yan, Abdollah Homaifar, Mrinmoy Sarkar, Benjamin Lartley, and Kishor Datta Gupta. "An Online Unsupervised Streaming Features
+## Dependencies
+Install the following python packages first:
+* Numpy
+* Scikit-learn
+* Orange3 (Python 3)
+* Pandas
+* Scipy
+
+## Citation Format
+This work has been accepted for publication in IEEE Transactions on Artificial Intelligence and please cite the following articles for any use.
+* Xuyang Yan, Abdollah Homaifar, Mrinmoy Sarkar, Benjamin Lartley, and Kishor Datta Gupta. "An Online Unsupervised Streaming Features
 Selection Through Dynamic Feature Clustering" IEEE Transactions on Artificial Intelligence. (Accepted)
